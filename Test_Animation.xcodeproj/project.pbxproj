@@ -13,6 +13,7 @@
 		FE77CC1322B3A68300341181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE77CC1222B3A68300341181 /* Assets.xcassets */; };
 		FE77CC1622B3A68300341181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE77CC1422B3A68300341181 /* LaunchScreen.storyboard */; };
 		FE77CC1922B3A68300341181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE77CC1822B3A68300341181 /* main.m */; };
+		FE77CC2122B3A6A600341181 /* KVPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE77CC1F22B3A6A600341181 /* KVPieView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FE77CC1522B3A68300341181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE77CC1722B3A68300341181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE77CC1822B3A68300341181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE77CC1F22B3A6A600341181 /* KVPieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPieView.m; sourceTree = "<group>"; };
+		FE77CC2022B3A6A600341181 /* KVPieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVPieView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				FE77CC0922B3A68000341181 /* AppDelegate.h */,
 				FE77CC0A22B3A68000341181 /* AppDelegate.m */,
+				FE77CC2022B3A6A600341181 /* KVPieView.h */,
+				FE77CC1F22B3A6A600341181 /* KVPieView.m */,
 				FE77CC0C22B3A68000341181 /* ViewController.h */,
 				FE77CC0D22B3A68000341181 /* ViewController.m */,
 				FE77CC0F22B3A68000341181 /* Main.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE77CC2122B3A6A600341181 /* KVPieView.m in Sources */,
 				FE77CC0E22B3A68000341181 /* ViewController.m in Sources */,
 				FE77CC1922B3A68300341181 /* main.m in Sources */,
 				FE77CC0B22B3A68000341181 /* AppDelegate.m in Sources */,
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HS58VJDYA7;
 				INFOPLIST_FILE = Test_Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HS58VJDYA7;
 				INFOPLIST_FILE = Test_Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
